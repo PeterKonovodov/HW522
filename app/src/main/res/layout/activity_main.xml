@@ -25,7 +25,8 @@
             android:ems="10"
             android:hint="Login"
             android:inputType="textPersonName"
-            android:text="" />
+            android:text=""
+            tools:ignore="HardcodedText" />
 
         <EditText
             android:id="@+id/editTextPassword"
@@ -34,7 +35,8 @@
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
-            android:text="" />
+            android:text=""
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/loginButton"
@@ -42,7 +44,8 @@
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/colorLoginBtn"
-            android:text="Login" />
+            android:text="Login"
+            tools:ignore="HardcodedText" />
 
         <Button
             android:id="@+id/registerButton"
@@ -50,10 +53,49 @@
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/colorRegBtn"
-            android:text="Register" />
+            android:text="Register"
+            tools:ignore="HardcodedText" />
 
 
     </LinearLayout>
+
+    <Switch
+        android:id="@+id/memorySwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:text="Internal"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="-4dp"
+        android:text="External"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        app:layout_constraintBaseline_toBaselineOf="@id/memorySwitch"
+        app:layout_constraintStart_toEndOf="@id/memorySwitch"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/memorySwitchTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:text="Memory switch"
+        android:textColor="@color/colorText"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/memorySwitch"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

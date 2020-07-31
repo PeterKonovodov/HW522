@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">HW521</string>
+    <string name="app_name">HW522</string>
     <string name="enter_username_to_register">Для регистрации нужно ввести имя пользователя!</string>
     <string name="enter_password">Введите пароль!</string>
     <string name="user_is_exist">Пользователь с данным именем уже существует!</string>
@@ -9,6 +9,9 @@
     <string name="user_is_logined_already">Пользователь уже залогинен!</string>
     <string name="password_is_wrong">Неверный пароль!</string>
     <string name="user_is_logined">Пользователь залогинен!</string>
-    <string name="users_db_loaded">База пользователей загружена!</string>
+    <string name="users_db_loaded_from_internal">%d пользователей загружено из внутренней памяти!</string>
+    <string name="users_db_loaded_from_external">%d пользователей загружено из внешней памяти!</string>
+    <!--    <string name="load_from_external_error">Ошибка чтения из внешней памяти!</string>-->
+    <!--    <string name="load_from_internal_error">Ошибка чтения из внутренней памяти!</string>-->
 
 </resources>
